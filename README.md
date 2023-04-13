@@ -1,6 +1,6 @@
 # Video Game Recommendation System
 
-The aim of the project is to provide video game suggestions that consider various factors like game genre, platform, ratings, critic and user scores. This effort will benefit people who want to explore new games based on a particular platform or title, as well as businesses that want to gain insights into the video game industry's trends and operations.
+The aim of the project is to provide video game suggestions that consider various factors like game genre, platform, ratings, critic and user scores. This effort will benefit people who want to explore new games based on a particular platform or title.
 
 To achieve this, the project has employed an unsupervised machine learning algorithm called "NearestNeighbors" to build a model that can recommend video games to users based on their input of the game's title. Moreover, users will be able to specify the game platform they are interested in.
 The following are the features that were used to develop the model:
