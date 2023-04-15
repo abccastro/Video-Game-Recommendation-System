@@ -1,4 +1,4 @@
-# Video Game Recommendation System
+# Video Games Recommendation System
 
 The aim of the project is to provide video game suggestions based on user input: game title and platform (optional). This effort will benefit individuals who want to explore and find new games.
 
@@ -30,7 +30,7 @@ pip install seaborn
 ## Program Execution
 Launch the Jupyter Notebook
 ```bash
-Video Game Recommendation System.ipynb
+Video Games Recommendation System.ipynb
 ```
 
 ## Group 12 Members
