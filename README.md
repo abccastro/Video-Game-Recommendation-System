@@ -1,8 +1,11 @@
 # Video Game Recommendation System
 
-The aim of the project is to provide video game suggestions that consider various factors like game genre, platform, ratings, critic and user scores. This effort will benefit people who want to explore new games based on a particular platform or title.
+The aim of the project is to provide video game suggestions based on user input: game title and platform (optional). This effort will benefit individuals who want to explore and find new games.
 
-To achieve this, the project has employed an unsupervised machine learning algorithm called "NearestNeighbors" to build a model that can recommend video games to users based on their input of the game's title. Moreover, users will be able to specify the game platform they are interested in.
+The recommendation model is built using "NearestNeighbors", an unsupervised machine learning algorithm that uses distance computation to measure similarity or dissimilarity between the data points.
+a. Calculate the distance between the input and each data point in a dataset
+b. Select the data points with the smallest distance as the nearest neighbors
+
 The following are the features that were used to develop the model:
 
 - Genre: Genre of the video game
@@ -11,7 +14,7 @@ The following are the features that were used to develop the model:
 - Critic Score: Aggregated score compiled by Metacritic staff
 - User Score: Aggregated score by Metacritic's subscribers
 
-The datasets were obtained from the website https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings.
+The dataset was obtained from the website https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings.
 
 ## Installation
 
