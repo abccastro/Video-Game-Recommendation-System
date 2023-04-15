@@ -3,8 +3,9 @@
 The aim of the project is to provide video game suggestions based on user input: game title and platform (optional). This effort will benefit individuals who want to explore and find new games.
 
 The recommendation model is built using "NearestNeighbors", an unsupervised machine learning algorithm that uses distance computation to measure similarity or dissimilarity between the data points.
-a. Calculate the distance between the input and each data point in a dataset
-b. Select the data points with the smallest distance as the nearest neighbors
+
+1. Calculate the distance between the input and each data point in a dataset
+2. Select the data points with the smallest distance as the nearest neighbors
 
 The following are the features that were used to develop the model:
 
